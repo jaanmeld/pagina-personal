@@ -32,7 +32,7 @@ Este proyecto está bajo la Licencia (GNU General Public License v3.0
 ) - mira el archivo LICENSE.md para detalles
 
 ## Expresiones de Gratitud
-Muchas gracias a todos que ayudado para que este proyecto heste posible. Especialmente:
+Muchas gracias a todos que ayudado para que este proyecto ha sido posible. Especialmente:
 * the Bridge
 * Sofi
 * Daniel
