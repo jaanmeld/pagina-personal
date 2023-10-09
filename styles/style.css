@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+body {
+        font-family: 'Manrope', sans-serif;    
+}
+h1 {
+    margin-bottom: 30px;
+    padding-left: px;
+    background-color: #cb98e4;
+}
+h2 {
+    margin-bottom: 30px;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+p {
+    margin-bottom: 30px;
+}
+.main {
+    /* padding: 10px; */
+
+}
+.navig {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#270239;
+    padding: 20px;
+    color: white;
+}
+.elements{
+    width: 50%;
+}
+.list-inline {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+li {
+    padding:5px;
+}
+.navig a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.navig a:hover {
+    text-decoration: underline;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.logo {
+    max-height: 100px;
+    border-radius: 20px 0px 20px 0px;
+    border-radius: 50%;
+}
+.sideimg {
+    max-width: 150px;
+}
+
+.mainsection {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    min-height: 500px;
+}
+.maincontact {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    min-height: 500px;
+}
+.comp  {   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+}
+.recom {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 10px;
+    filter: grayscale(100%);
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(white, #270239);
+    min-height: 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 15px;
+    background-color: #c5ff3e;
+    border-radius: 5%;
+}
+input {
+    padding: 3px;
+}
+textarea {
+    padding: 3px;
+}
+
+.bull {
+    float: left;
+    padding-right: 20px; 
+}
+.dreams {
+    float: right;
+    padding-left: 20px;
+}
+::-moz-selection { /* Code for Firefox */
+ color: white;
+ background: #270239;
+}
+
+::selection {
+color: white;
+background: #270239;
+}
