@@ -29,7 +29,7 @@ Construido por Jānis con contribucion de Daniel Miguélez Poblador. El proyecto
 
 ## Licencia
 Este proyecto está bajo la Licencia (GNU General Public License v3.0
-) - mira el archivo LICENSE.md para detalles
+) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud
 Muchas gracias a todos que ayudado para que este proyecto ha sido posible. Especialmente:
