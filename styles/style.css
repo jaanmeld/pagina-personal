@@ -10,7 +10,8 @@ body {
 }
 h1 {
     margin-bottom: 30px;
-    padding-left: px;
+    padding-left: 5%;
+    padding-bottom: 6px;
     background-color: #cb98e4;
 }
 h2 {
@@ -61,10 +62,6 @@ li {
     border-radius: 20px 0px 20px 0px;
     border-radius: 50%;
 }
-.sideimg {
-    max-width: 150px;
-}
-
 .mainsection {
     margin: 100px;
     display: flex;
@@ -72,13 +69,28 @@ li {
     justify-items: center;
     min-height: 500px;
 }
-.maincontact {
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-    min-height: 500px;
+q {
+    font-size: 1.5em;
 }
+.mainindex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 500px;
+    min-width: 800px;
+    margin: 100px;;
+}
+.leftside {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.rightside {
+    width: 50%;
+    padding: 20px;
+
+}
+
 .comp  {   
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +106,26 @@ li {
     filter: grayscale(100%);
     
 }
+.portcont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+}
+.port {
+    max-width: 400px;
+    padding: 15px;
+    margin: 15px;
+}
+.port > img {
+    width: 350px;
+    height: 300px;
+    object-fit: contain;    
+}
+.vid {
+    min-width: 600px;
+}
 
 .footer {
     display: flex;
@@ -102,13 +134,36 @@ li {
     background-image: linear-gradient(white, #270239);
     min-height: 100px;
 }
+.maincontact {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    min-height: 500px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 600px;
+}
+.contact > p {
+    text-align: center;
+}
+.contact > img {
+    border-radius: 25px 25px 25px 25px;
+   -moz-border-radius: 25px 25px 25px 25px;
+   -webkit-border-radius: 25px 25px 25px 25px;
+    border: 8px solid #4a056d;
+}
 form {
     display: flex;
     flex-direction: column;
     gap: 8px;
     padding: 15px;
-    background-color: #c5ff3e;
-    border-radius: 5%;
+    background-color: #4a056d;
+    border-radius: 3%;
+    min-width: 300px;
 }
 input {
     padding: 3px;
